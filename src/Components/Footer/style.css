@@ -1,0 +1,25 @@
+.footer{
+  margin-top: 6rem;
+  padding: 10px;
+  background-color:rgb(78, 0, 122);
+  
+}
+
+
+
+.social{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.foot-link{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.foot-item{
+  list-style-type: none;
+}
