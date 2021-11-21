@@ -10,7 +10,7 @@ const ButtonMailto = ({ mailto }) => {
         e.preventDefault();
       }}
     >
-      <i class="social bi bi-envelope-fill"></i>
+      <i className="social bi bi-envelope-fill"></i>
     </Link>
   );
 };

@@ -1,14 +1,12 @@
 import React from "react";
-//import {Link} from "react-router-dom";
-import "./Nav.css";
-import NavLinks from "./NavLinks";
-
-import logo from "../Navbar/logo1.png";
+import logo from "./logo1.png";
+import NavToggler from "./Navtoggler";
+import "./Style.css";
 
 const Nav = () => (
-  <div className="container-fluid">
-    <div className="row">
-      <div className="col-lg-6 col-10 justify-content-left py-auto" id="Navbar">
+  <nav className="navbar navbar-expand-lg">
+    <div className="container-fluid main-nav">
+      <div className="navbrand">
         <img
           alt="logo"
           src={logo}
@@ -16,13 +14,14 @@ const Nav = () => (
           height="80"
           className="d-inline-block"
         />{" "}
-        <h2 className="title-link d-inline-block text-light my-0">
+        <h2 className="title-link d-inline-block text-light align-middle">
           Vincent Durox
         </h2>
       </div>
-      <NavLinks />
+
+      <NavToggler />
     </div>
-  </div>
+  </nav>
 );
 
 export default Nav;

@@ -1,0 +1,52 @@
+/*Nav*/
+
+.navbar{
+  background-color: #4E007A;
+  
+}
+
+
+/*Navtoggler*/
+
+.bi-list{
+  color: white;
+  font-size: 35px;
+
+}
+
+
+.nav-menu{
+  text-align: center;
+}
+/* Navlinks*/
+
+.offcanvas-header{
+  background-color:#4E007A;
+}
+.offcanvas-body{
+  background-color:#4E007A;
+}
+
+#offcanvasNavbar{
+  width: 150px;
+}
+
+#header-tabs{
+  text-align: left;
+}
+
+.nav-item{
+  list-style-type: none;
+}
+
+.nav-link{
+  color: white!important;
+  font-size: 20px;
+  
+}
+.nav-link.active{
+  font-weight:bold;
+  text-shadow: 0 0 5px #ffffff7a;;
+}
+
+

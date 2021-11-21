@@ -4,8 +4,8 @@ import ButtonMailto from "./MailTo";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => (
-  <div>
-    <div className="container-fluid footer static-bottom">
+  <>
+    <div className="container-fluid footer">
       <div className="row justify-content-center">
         <div className="col-md-1 col-3 text-center social">
           <a
@@ -13,7 +13,7 @@ const Footer = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <i class="social bi bi-linkedin"></i>
+            <i className="social bi bi-linkedin"></i>
           </a>
         </div>
         <div className="col-md-1 col-3 text-center social">
@@ -22,15 +22,15 @@ const Footer = () => (
             target="_blank"
             rel="noreferrer"
           >
-            <i class="social bi bi-github"></i>
+            <i className="social bi bi-github"></i>
           </a>
         </div>
         <div className="col-md-1 col-3 text-center social">
-          <ButtonMailto mailto="mailto:v.durox@icloud.com" />
+          <ButtonMailto mailto="mailto:hilltop_horizon.0l@icloud.com" />
         </div>
       </div>
 
-      <div activeKey="/home" className="row justify-content-center text-center">
+      <div className="row justify-content-center text-center">
         <li className="col-md-2 col-3 foot-item">
           <NavLink exact to="/" className="foot-link">
             Home
@@ -48,7 +48,7 @@ const Footer = () => (
         </li>
       </div>
     </div>
-  </div>
+  </>
 );
 
 export default Footer;

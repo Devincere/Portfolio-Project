@@ -2,7 +2,7 @@ import "./style.css";
 
 const IntroSkills = ({ title, text }) => (
   <div className="introSkills">
-    <h3>{title}</h3>
+    <h3 className="title-skills">{title}</h3>
     <p>{text}</p>
   </div>
 );
