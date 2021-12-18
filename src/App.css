@@ -1,0 +1,44 @@
+
+html{
+  min-height: 100vh;
+}
+
+
+body {
+  min-height: 100vh;
+  background-color: rgb(116, 0, 184);
+  color: white;
+  min-height: auto;
+  vertical-align: center;
+ padding-bottom: 80px;
+}
+
+
+#codimg{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 60%;
+  border-radius: 15px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#main-content{
+  margin-bottom: 100px;
+  margin-top: 100px;
+  overflow: auto;
+}
+
+.wrapper{
+  margin-top: 15px;
+}
+
+.skills-icon{
+  padding-left: 8px;
+  font-size: 26px;
+  vertical-align: bottom;
+}
+
+.bi::before {
+  vertical-align: bottom;
+}
